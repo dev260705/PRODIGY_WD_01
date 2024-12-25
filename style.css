@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #d4af37, #b8860b);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 1);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.watches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.watch {
+    background: #000;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.watch:hover {
+    transform: scale(1.05);
+}
+
+.watch img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.watch h3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+.watch p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.offers {
+    text-align: center;
+    padding: 20px;
+}
+
+.offers h2 {
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 24px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background: #d4af37;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+}

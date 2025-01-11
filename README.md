@@ -1,4 +1,3 @@
 # PRODIGY_WD_01
 
-This is a Task 1 of Prodigy InfoTech
-(Responsive Landing Page)
+This is a (Responsive Landing Page) of Rolex Wathes
